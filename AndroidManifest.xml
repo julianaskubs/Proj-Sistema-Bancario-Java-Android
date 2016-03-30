@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.BiancaJessicaJulianaSusane.ctb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.MenuPrincipalActivity"
+            android:label="@string/title_activity_menu_principal" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.SaqueActivity"
+            android:label="@string/title_activity_saque" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.LigacaoActivity"
+            android:label="@string/title_activity_ligacao" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.VisualizarHistoricoActivity"
+            android:label="@string/title_activity_visualizar_historico" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.DepositoActivity"
+            android:label="@string/title_activity_deposito" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.SaldoGlobalActivity"
+            android:label="@string/title_activity_saldo_global" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.SaldoIndividualActivity"
+            android:label="@string/title_activity_saldo_individual" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.CadAgenciaActivity"
+            android:label="@string/title_activity_cad_agencia" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.CadContaActivity"
+            android:label="@string/title_activity_cad_conta" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.CadastrarAgencia2Activity"
+            android:label="@string/title_activity_cadastrar_agencia2" >
+        </activity>
+        <activity
+            android:name="br.com.BiancaJessicaJulianaSusane.ctb.CadastrarContaActivity"
+            android:label="@string/title_activity_cadastrar_conta" >
+        </activity>
+    </application>
+
+</manifest>

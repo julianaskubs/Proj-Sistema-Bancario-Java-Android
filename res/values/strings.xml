@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ControleTransacoesBancarias</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_menu_principal">MenuPrincipalActivity</string>
+    <string name="title_activity_saque">SaqueActivity</string>
+    <string name="title_activity_ligacao">LigacaoActivity</string>
+    <string name="title_activity_visualizar_historico">VisualizarHistoricoActivity</string>
+    <string name="title_activity_deposito">DepositoActivity</string>
+    <string name="title_activity_saldo_global">SaldoGlobalActivity</string>
+    <string name="title_activity_saldo_individual">SaldoIndividualActivity</string>
+    <string name="title_activity_cad_agencia">CadAgenciaActivity</string>
+    <string name="title_activity_cad_conta">CadContaActivity</string>
+    <string name="title_activity_cadastrar_agencia2">CadastrarAgencia2Activity</string>
+    <string name="title_activity_cadastrar_conta">CadastrarContaActivity</string>
+
+</resources>
